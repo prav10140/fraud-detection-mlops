@@ -1,0 +1,15 @@
+venv/
+.git/
+.dvc/
+.env
+data/
+logs/
+mlruns/
+reports/
+tests/
+artifacts/ingested/
+artifacts/transformed/
+artifacts/incoming.csv
+__pycache__/
+*.pyc
+*.ipynb
