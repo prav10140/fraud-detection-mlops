@@ -1,0 +1,55 @@
+{
+  "drift_detected": true,
+  "rows_checked": 5000,
+  "major_drift_features": [
+    "V14",
+    "V10",
+    "Amount"
+  ],
+  "moderate_drift_features": [
+    "V4"
+  ],
+  "top_features": [
+    {
+      "feature": "V14",
+      "psi": 4.2597,
+      "ks": 0.8015
+    },
+    {
+      "feature": "V10",
+      "psi": 3.0091,
+      "ks": 0.6704
+    },
+    {
+      "feature": "Amount",
+      "psi": 0.4023,
+      "ks": 0.2278
+    },
+    {
+      "feature": "V4",
+      "psi": 0.1988,
+      "ks": 0.1035
+    },
+    {
+      "feature": "V8",
+      "psi": 0.007,
+      "ks": 0.0187
+    },
+    {
+      "feature": "V11",
+      "psi": 0.0047,
+      "ks": 0.0127
+    },
+    {
+      "feature": "V22",
+      "psi": 0.0047,
+      "ks": 0.0148
+    },
+    {
+      "feature": "V20",
+      "psi": 0.0038,
+      "ks": 0.0138
+    }
+  ],
+  "fraud_rate_new": 0.001
+}

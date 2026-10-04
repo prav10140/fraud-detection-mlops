@@ -8,3 +8,4 @@ mlflow.db
 artifacts/ingested/
 artifacts/transformed/
 /data/raw/creditcard.csv
+artifacts/incoming.csv
