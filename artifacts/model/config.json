@@ -1,0 +1,7 @@
+{
+  "weight_xgb": 0.8,
+  "threshold": 0.22,
+  "anomaly_lo": 0.35734085883396915,
+  "anomaly_hi": 0.6774121140638941,
+  "review_cost": 5.0
+}

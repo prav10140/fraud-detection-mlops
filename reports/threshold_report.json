@@ -1,0 +1,19 @@
+{
+  "weight_xgb": 0.8,
+  "val_cost_chosen": 2525.52,
+  "no_model_cost_test": 8483.36,
+  "xgb_alone_at_0.5_test": {
+    "threshold": 0.5,
+    "flagged": 69,
+    "precision": 0.8696,
+    "recall": 0.8108,
+    "cost": 4833.4
+  },
+  "chosen_test": {
+    "threshold": 0.22,
+    "flagged": 76,
+    "precision": 0.8158,
+    "recall": 0.8378,
+    "cost": 4617.08
+  }
+}
