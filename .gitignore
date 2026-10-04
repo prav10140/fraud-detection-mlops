@@ -9,3 +9,5 @@ artifacts/ingested/
 artifacts/transformed/
 /data/raw/creditcard.csv
 artifacts/incoming.csv
+artifacts/model_old/
+artifacts/incoming_train.csv

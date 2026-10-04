@@ -1,0 +1,31 @@
+{
+  "retrained": true,
+  "promoted": true,
+  "incoming_rows": 40000,
+  "drift": {
+    "drift_detected": true,
+    "major_drift_features": [
+      "V14",
+      "V10",
+      "Amount"
+    ],
+    "moderate_drift_features": [
+      "V4"
+    ]
+  },
+  "holdout_rows": 16000,
+  "holdout_frauds": 28,
+  "old_model": {
+    "cost": 479.03,
+    "flagged": 37,
+    "frauds_caught": 27,
+    "frauds_total": 28
+  },
+  "new_model": {
+    "cost": 192.28,
+    "flagged": 38,
+    "frauds_caught": 27,
+    "frauds_total": 28
+  },
+  "note": "New model is not worse in money on hidden new data. Promoted."
+}

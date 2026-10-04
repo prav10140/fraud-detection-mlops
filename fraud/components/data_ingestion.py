@@ -28,7 +28,8 @@ def run_ingestion():
     try:
         df = read_collection(DB_NAME, COLLECTION)
         if os.getenv("INCLUDE_INCOMING") == "true":  # used by auto-retraining
-            new = read_collection(DB_NAME, INCOMING_COLLECTION)
+            path = os.getenv("INCOMING_TRAIN_CSV")   # only the part kept for training
+            new = pd.read_csv(path) if path else read_collection(DB_NAME, INCOMING_COLLECTION)
             df = pd.concat([df, new], ignore_index=True)
         logging.info("Read %d rows from MongoDB", len(df))
         return split_and_save(df)
