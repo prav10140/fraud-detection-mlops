@@ -6,7 +6,7 @@ import requests
 
 from fraud.constants import EXPECTED_COLUMNS, INGESTED_DIR, TARGET
 
-URL = "http://127.0.0.1:5000/predict"
+URL = "http://16.176.167.174:5000/predict"
 FEATURES = [c for c in EXPECTED_COLUMNS if c != TARGET]
 df = pd.read_csv(f"{INGESTED_DIR}/test.csv")
 rows = {
